@@ -151,17 +151,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="autoroll.cpp" />
-    <ClCompile Include="Expr.cpp" />
-    <ClCompile Include="parse.cpp" />
-    <ClCompile Include="tokenize.cpp" />
+    <ClCompile Include="src\autoroll.cpp" />
+    <ClCompile Include="src\Expr.cpp" />
+    <ClCompile Include="src\parse.cpp" />
+    <ClCompile Include="src\tokenize.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Expr.h" />
-    <ClInclude Include="Log.h" />
-    <ClInclude Include="parse.h" />
-    <ClInclude Include="Tok.h" />
-    <ClInclude Include="tokenize.h" />
+    <ClInclude Include="src\Expr.h" />
+    <ClInclude Include="src\Log.h" />
+    <ClInclude Include="src\parse.h" />
+    <ClInclude Include="src\Tok.h" />
+    <ClInclude Include="src\tokenize.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
