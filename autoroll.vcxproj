@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="autoroll.cpp" />
+    <ClCompile Include="Expr.cpp" />
     <ClCompile Include="parse.cpp" />
     <ClCompile Include="tokenize.cpp" />
   </ItemGroup>
