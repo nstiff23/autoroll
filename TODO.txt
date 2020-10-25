@@ -1,0 +1,6 @@
+TODO:
+ * Create makefiles for windows and linux
+ * Add argument parsing
+ * Add support for transparent and json output modes
+ * Add flags for seed, quiet mode, debug mode, transparent output, json output and rounding options
+ * Add a usage message
