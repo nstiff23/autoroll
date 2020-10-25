@@ -152,6 +152,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="autoroll.cpp" />
+    <ClCompile Include="parse.cpp" />
+    <ClCompile Include="tokenize.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Expr.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="parse.h" />
+    <ClInclude Include="Tok.h" />
+    <ClInclude Include="tokenize.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
